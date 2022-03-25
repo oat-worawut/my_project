@@ -6,7 +6,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
-  // FirebaseCrashlytics.instance.crash();
+  FirebaseCrashlytics.instance.crash();
   runApp(const MyApp());
 }
 
